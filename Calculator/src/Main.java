@@ -20,6 +20,10 @@ public class Main {
 
             System.out.print("Введите второе число: ");
             thirdNumber = input.nextInt();
+            if (thirdNumber == 0 && changing == '/' ){
+                System.out.println("Делить на ноль нельзя!");
+            }
+
 
             switch (changing) {
                 case '+':
